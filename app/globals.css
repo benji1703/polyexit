@@ -194,7 +194,7 @@ h1 { margin: 0; max-width: 680px; font-size: clamp(36px, 5.3vw, 72px); line-heig
 .input-shell:focus-within { outline: 2px solid var(--foreground); outline-offset: 2px; }
 .input-shell input { height: 100%; padding: 0; border: 0; background: transparent; box-shadow: none; }
 .input-shell input:focus-visible { outline: none; box-shadow: none; }
-.signin-button { width: 100%; height: 46px; justify-content: space-between; padding: 0 14px; border-radius: 7px; }
+.signin-button { width: 100%; height: 46px; justify-content: space-between; padding: 0 14px; border-radius: 7px; background: var(--primary); color: var(--primary-foreground); }
 .form-message { min-height: 18px; margin: 0; color: var(--muted-foreground); font-size: 11px; line-height: 1.5; }
 .form-message.error { color: var(--destructive); }
 .form-message.sent { color: #47751d; }
