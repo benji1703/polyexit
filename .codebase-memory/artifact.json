@@ -1,0 +1,11 @@
+{
+    "schema_version": 2,
+    "commit": "bc5b0212eb494712cb955e779e01ff5c2b194402",
+    "indexed_at": "2026-09-04T04:11:19Z",
+    "project": "polyexit",
+    "nodes": 327,
+    "edges": 504,
+    "original_size": 1638400,
+    "compressed_size": 211502,
+    "compression_level": 9
+}
