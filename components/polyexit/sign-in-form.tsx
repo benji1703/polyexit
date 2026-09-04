@@ -30,7 +30,7 @@ export function SignInForm() {
           />
         </div>
       </div>
-      <Button className="signin-button" size="lg" disabled={pending}>
+      <Button type="submit" className="signin-button" size="lg" disabled={pending}>
         {pending ? <LoaderCircle className="animate-spin" /> : <ArrowRight />}
         {pending ? "Sending…" : "Send secure link"}
       </Button>
@@ -40,4 +40,3 @@ export function SignInForm() {
     </form>
   );
 }
-
